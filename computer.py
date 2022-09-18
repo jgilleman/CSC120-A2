@@ -7,7 +7,7 @@ class Computer:
 
     #I defined my attributes in my constructor
     
-    # Constuctor;
+    # Constuctor; make computer and have it hold all this information about itself
     def __init__(self, description: str, processor_type: str, hard_drive_capacity: int, memory: int, operating_system: str, year_made: int, price: int):
         self.description = description
         self.processor_type = processor_type

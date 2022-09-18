@@ -1,3 +1,10 @@
+"""
+    Filename: oo_resale_shop.py
+    Description: The resale shop handles all buying, selling, price updating, and inventory printing for this program. 
+                It also generates the inventory once main first call the resale shop.
+    Author: J Gilleman
+    Date: 18 September 2022
+"""
 from computer import Computer
 from typing import Dict, Union, Optional
 class ResaleShop:
@@ -44,6 +51,7 @@ class ResaleShop:
         else:
             print("No inventory to display.")
 
+    #refurbish computer by updating os if it's super old, and updating the price as well
     def refurbish(self, item_id: int, new_os: Optional[str] = None):
         if item_id in self.inventory:
             computer = self.inventory[item_id] # locate the computer
