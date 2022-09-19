@@ -2,8 +2,9 @@
     Filename: oo_resale_shop.py
     Description: The resale shop handles all buying, selling, price updating, and inventory printing for this program. 
                 It also generates the inventory once main first call the resale shop.
-    Author: J Gilleman
-    Date: 18 September 2022
+    Author and Date: J Gilleman - 18 September 2022
+    Collaboration: Ryan (K) Emerson
+    Cited: I did not utlilize any external resources in completing this assignment.
 """
 from computer import Computer
 from typing import Dict, Union, Optional

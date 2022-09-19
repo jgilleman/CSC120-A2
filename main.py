@@ -2,6 +2,8 @@
     Filename: main.py
     Description: Main runs the program and is basically just a command list.
     Author & Date: J Gilleman--18 September 2022
+    Collaboration: Ryan (K) Emerson
+    Cited: I did not utlilize any external resources in completing this assignment.
 """
 
 # Import; letting this file call other files

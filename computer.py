@@ -2,6 +2,8 @@
     Filename: computer.py
     Description: Computer holds all the information about the computer like processor and os type. It also creates a computer object when called.
     Author & Date: J Gilleman--18 September 2022
+    Collaboration: Ryan (K) Emerson
+    Cited: I did not utlilize any external resources in completing this assignment.
 """
 class Computer:
 
